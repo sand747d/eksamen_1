@@ -1,0 +1,41 @@
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.logo {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.prototype img {
+  max-width: 45%;
+  max-height: 45%;
+}
+
+.fotografier img {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+@media (min-width: 800px) {
+  img {
+    max-height: 50%;
+    max-width: 50%;
+  }
+
+  .logo {
+    max-height: 30%;
+    max-width: 30%;
+  }
+
+  .prototype img {
+    max-height: 30%;
+    max-width: 30%;
+  }
+
+  .fotografier img {
+    max-width: 25%;
+    max-height: 25%;
+  }
+}

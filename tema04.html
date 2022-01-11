@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/tema04.css" />
+    <title>Tema 04</title>
+  </head>
+  <header>
+    <h1>Portfolio Eksamen</h1>
+    <h3>sandra han</h3>
+    <nav>
+      <div id="menuknap">☰</div>
+      <ul id="menu" class="hidden">
+        <li><a href="start.html">startside</a></li>
+        <li>
+          <a href="ommig.html">om mig</a>
+        </li>
+        <li>
+          <a href="tema02.html">tema02</a>
+        </li>
+        <li>
+          <a href="tema03.html">tema03</a>
+        </li>
+        <li>
+          <a href="tema04.html">tema04</a>
+        </li>
+        <li>
+          <a href="tema05.html">tema05</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <h2>Tema 04 - Grundlæggende Animation</h2>
+    <br />
+    <h3>Introduktion og formål</h3>
+    <p>
+      I dette tema skulle vi lære javascript i sammenhæng med css. Formålet med
+      temaet var at kode et spil helt fra bunden og gøre det interaktivt ved
+      hjælp af css og javascript. Spillet skulle vi selv finde på i forhold til
+      ide, koncept og design af elementer og baggrunde. Designdelen foregik i
+      hånden og i Illustrator som også var formålet at skulle lære bedre at
+      kende.
+    </p>
+    <h3>Min løsning</h3>
+    <p>
+      Jeg valgte at lave et spil som handlede om at fange indgredienser til en
+      skål ramen. Jeg designede spillet i stilarten flatdesign. Spillet havde en
+      startskærm, spilskærm og 2 slutskærme, en vinderskærm og en taberskærm.
+      Spillet varer 45 sekunder og man har 3 liv. Spillet fungerer sådan at der
+      falder forskellige elementer ned fra skærmen. Hvis man trykker på en ramen
+      indgrediens får man 1 point, hvis man trykker på en lei si får man 5
+      point, hvis man trykker på en nøgle eller ring mister man 1 point, hvis
+      man trykker på musen mister man 1 liv. Man vinder spillet ved få 30 point,
+      man taber spillet hvis man ikke når at få 30 point inden tiden løber ud
+      eller mister alle liv.
+    </p>
+    <h3>Metode & Redskaber</h3>
+    <h4>Aktivitetsdiagram</h4>
+    <p>
+      For at få et bedre overblik over hvordan hele spillet fungerede skulle vi
+      lave et aktivitetsdiagram. Dette lavede jeg inde i
+    </p>
+    <div class="aktivdia">
+      <img src="billeder/aktivitetsdiagram.png" alt="aktivitetsdiagram" />
+    </div>
+    <h4>Stil</h4>
+    <p>
+      Jeg valgte stilen flatdesign og tog udgangspunkt i tegneserien Den
+      amerikanske Drage.
+    </p>
+    <h4>Skitser og rentegning</h4>
+    <p>
+      Først startede jeg ud med at lave en papir prototype af spillet. Dette
+      gave en ide om hvordan mit spil ville fungere og se ud. Jeg tegnede mine
+      skitser af alt i hånden og rentegnede dem derefter i Illustrator.
+    </p>
+    <img src="billeder/spil_skitse.png" alt="spil skitse" />
+    <img src="billeder/startside_spil.png" alt="startside" />
+    <img src="billeder/baggrund_spil.png" alt="baggrund" />
+    <h4>Assetliste</h4>
+    <h5>Gode elementer</h5>
+    <div class="elementer">
+      <img src="billeder/æg.png" alt="æg" />
+      <img src="billeder/kød.png" alt="kød" />
+      <img src="billeder/nudler.png" alt="nudler" />
+      <img src="billeder/narutomaki.png" alt="narutomaki" />
+      <img src="billeder/leisi.png" alt="lei si" />
+    </div>
+    <h5>Dårlige elementer</h5>
+    <div class="elementer">
+      <img src="billeder/nøgle.png" alt="nøgle" />
+      <img src="billeder/ring.png" alt="ring" />
+      <img src="billeder/rotte.png" alt="rotte" />
+    </div>
+    <h5>Tid</h5>
+    <div class="elementer">
+      <img src="billeder/tid.png" alt="tid" />
+    </div>
+    <h5>Liv</h5>
+    <div class="elementer">
+      <img src="billeder/Tegnebræt9.png" alt="liv" />
+      <img src="billeder/liv3_1.png" alt="liv1" />
+      <img src="billeder/liv2.png" alt="liv2" />
+      <img src="billeder/liv3.png" alt="liv3" />
+    </div>
+    <h5>startskærm</h5>
+    <img src="billeder/titelsidefærdig.png" alt="titelside" />
+    <h5>spilskærm</h5>
+    <img src="billeder/spilskærmfærdig.png" alt="spilskærm" />
+    <h5>Vinderskærm</h5>
+    <img src="billeder/win.png" alt="Vinderskærm" />
+    <h5>Taberskærm</h5>
+    <img src="billeder/lose.png" alt="Taberskærm" />
+    <h4>State-machine diagram</h4>
+    <h3>Resultat</h3>
+    <p>
+      Efter at have fundet min ide til mit spil lavede jeg et aktivitetsdiagram,
+      dette hjalp med at holde styr spillet i forhold til hvad der sker når man
+      klikker på hvilke ting og hvornår man mister eller taber spillet.
+      Prototypen af spillet og skitserne af de forskellige skærme og elementer
+      tegnet i hånden gjorde det en hel del mere overskueligt at lave i
+      Illustrator. Det gør at man har et udgangspunkt til alle tingene.
+      Derudover gjorde det at lave en assetliste at man havde overblik over hvad
+      der var UI elementer, gode og dårlige elementer og de forskellige skærme
+      og hvad der skulle være på på forhånd og hvad der skulle programmeres ind.
+      Læren og brugen af javascript gjorde spillet klikbart og interaktivt.
+      Dette gjorde at man kunne få point, miste point, miste liv, have tid på
+      spillet, trykke ind på spillet fra start, vinder- og taberskærmen og at
+      der ville komme en vinder- og taberskærm frem i forhold til hvorvidt man
+      vandt eller tabte.
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.left_section {
+  margin-right: 40px;
+  padding: 5px;
+  background-color: #eeaa6e;
+}
+
+.left_section p {
+  color: rgb(36, 117, 36);
+}
+
+h4 {
+  color: #9cb0d9;
+}
+
+.left_section a {
+  color: #b4caf5;
+}
+
+.left_section a:hover {
+  color: rgb(36, 117, 36);
+}
+
+@media (min-width: 500px) {
+  img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+}
+
+@media (min-width: 700px) {
+  img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 25px;
+  }
+
+  .first_section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+  }
+
+  .billede {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .overskrift {
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+
+  .second_section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+  }
+
+  .right_section {
+    margin-top: -20px;
+  }
+
+  .left_section p {
+    font-size: small;
+  }
+}
+
+@media (min-width: 1000px) {
+  .left_section p {
+    color: rgb(36, 117, 36);
+    font-size: unset;
+  }
+}
