@@ -1,4 +1,4 @@
-img {
+.all img {
   max-height: 100%;
   max-width: 100%;
 }
@@ -8,8 +8,12 @@ img {
   max-height: 45%;
 }
 
+.toppen img {
+  max-width: 100%;
+}
+
 @media (min-width: 600px) {
-  img {
+  .all img {
     max-height: 50%;
     max-width: 50%;
   }

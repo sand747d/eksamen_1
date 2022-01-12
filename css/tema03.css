@@ -1,4 +1,4 @@
-img {
+.all img {
   max-height: 100%;
   max-width: 100%;
 }
@@ -19,7 +19,7 @@ img {
 }
 
 @media (min-width: 800px) {
-  img {
+  .all img {
     max-height: 50%;
     max-width: 50%;
   }
